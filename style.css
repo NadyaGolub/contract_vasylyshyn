@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: Times New Roman, serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5385;
+  color: #333;
+  text-align: justify;
+  background-color: #eee;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+}
+h2 {
+  text-align: center;
+  font-size: 14px;
+}
+
+input {
+  border: none;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Times New Roman, serif;
+}
+
+input[type="text"]::placeholder {
+  color: red;
+}
+
+.input-date {
+  width: 60px;
+  text-align: center;
+}
+
+select {
+  font-family: Times New Roman, serif;
+}
+
+.container {
+  width: 1200px;
+}
+
+.background {
+  padding: 30px;
+  background-image: url(./image/pexels-evie-shaffer-1259279-4154613.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.padding {
+  padding: 20px;
+}
+.center {
+  text-align: center;
+}
+.border {
+  border: none;
+}
+.contract-number {
+  width: 30px;
+  font-family: Times New Roman, serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.term {
+  width: 20px;
+  text-align: center;
+}
+.title {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+
+.flex-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.1875rem;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  font-family: Times New Roman, serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #131111;
+  background-color: #2196f3;
+  width: 172px;
+  height: 56px;
+  box-shadow: 0px 20px 50px -20px #5b86c7;
+  border-radius: 10px;
+  border: none;
+  float: right;
+
+  &:hover {
+    background-color: #062f6d;
+    color: #fff;
+    transform: scale(1.1);
+  }
+}
+
+.btn-labeled > b {
+  position: absolute;
+  top: -1px;
+  background-color: blue;
+  display: block;
+  line-height: 1;
+  padding: 0.62503rem;
+}
+
+.page-break {
+  page-break-before: always;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom {
+  padding-top: 90px;
+}
