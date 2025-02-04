@@ -5,7 +5,7 @@ window.onload = function() {
 
     html2pdf().from(invoice).set({ // Використовуємо змінну invoice
       margin: [10, 10, 10, 10],
-      filename: 'contract_vasylyshyn.pdf',
+      filename: 'contract_Vasylyshyn.pdf',
       image: { type: 'jpeg', quality: 0.98 },
       html2canvas: {
         scale: 2.5,
